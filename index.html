@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+
+<!--[if lte 8]><html class="pre-ie9" lang="en"><![endif]-->
+
+<!--[if gte IE 9]><!-->
+<html lang="en"><!--<![endif]-->
+
+<head>
+
+    <title>Ramzien Restaurant</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Ramzien Restaurnt Website" />
+    <meta name="keywords" content="Ramzien , Restaurant , Cafee">
+    <meta name="author" content="Muhammad Ramadan, Zien Muhammad">
+    <!-- <base href="./assets/imgs/"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3
+/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/imgs/logo-2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <!--the header of the page that contain navbar and slider-->
+    <header>
+        <div class="ourmain-nav navbar d-flex row m-0 p-0 ps-md-1 pe-md-1 ps-xl-4 pe-xl-4">
+            <!--navbar-->
+            <nav class="left-nav navbar navbar-expand-lg p-0 text-bg col-12 col-lg-9">
+                <div class="container-fluid d-flex justify-content-between row m-0 p-0">
+                    <h1 class="col-4 col-md-2 mb-0">
+                        <a class="navbar-brand logo" href="#">
+                            <img src="./assets/imgs/logo-2.png" alt="logo">
+                        </a>
+                    </h1>
+                    <button class="col-3 pe-2 pe-md-0 col-md-2 navbar-toggler burger-menu mobile_menu" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="col-lg-8 col-xl-9 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ps-3 ps-lg-0 desktop-nav me-auto mb-2 mb-lg-0 w-100">
+
+                            <li class="nav-item dropdown me-xl-2">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link" href="#testimonial">testmonials</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="nav-link" href="#FAQ">FAQ</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="nav-link" href="#">blog</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#BookATable">Book A Table</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">our menus</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">team</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contact us</a>
+                            </li>
+                            <li class="nav-item search d-none d-lg-flex"><i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!--Details about our site and reserve table button -->
+            <div class="col-3 d-none d-lg-flex row m-0 p-0 g-2 justify-content-evenly">
+                <button class="col-2 btn burger-menu" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" title="navbar details">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class=" nav-details offcanvas offcanvas-end text-light overflow-auto p-2 ps-0 " tabindex="-1"
+                    id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <button type="button"
+                        class="btn-close btn-close-white d-flex align-self-end m-3 ms-0 link-light text-light btn-light"
+                        data-bs-dismiss="offcanvas" aria-label="Close">
+                    </button>
+
+                    <div class="offcanvas-header flex-column justify-content-start  ms-3 ps-5 pt-3 pe-5">
+                        <h2 class="logo text-center pb-2 offcanvas-title" id="offcanvasRightLabel">
+                            <a href="#"><img src="./assets/imgs/logo-2.png" alt="our logo"></a>
+                        </h2>
+                        <h3 class="">Order healthy and fresh food any time, Enjoy an exceptional journey of taste.
+                        </h3>
+                    </div>
+
+                    <div class="offcanvas-body overflow-visible ms-3 ps-5 pt-3 pe-5">
+
+                        <h2 class="pb-2">
+                            Contact Info
+                        </h2>
+                        <ul class="contact list-unstyled">
+
+                            <li class=" d-flex justify-content-start align-items-center contact-address">
+                                <span class="location">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+                                <span>684 West College St.
+                                    Sun
+                                    City, United States
+                                    America, 064781.
+                                </span>
+                            </li>
+
+
+                            <li class="d-flex justify-content-start align-items-center  contact-phone">
+
+                                <span class="phone">
+                                    <i class="fa-solid fa-headphones-simple"></i>
+                                </span>
+                                <span><a href="tel:+(528)456-7592">+(528) 456-7592</a>
+                                </span>
+                            </li>
+
+
+                            <li class="d-flex justify-content-start  align-items-center  contact-email">
+                                <span class="email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <span>
+                                    <a href="tel:info@restaurt.com">info@restaurt.com</a>
+                                </span>
+                            </li>
+                        </ul>
+
+
+                        <h2 class="pb-2 pt-2">
+                            Get Updates
+                        </h2>
+
+                        <form class="row align-items-center p-1">
+                            <div class="col-12">
+                                <label class="visually-hidden" for="emailNavbar">email</label>
+                                <div class="input-group">
+
+                                    <input type="email" class="rounded-0 form-control" id="emailNavbar"
+                                        placeholder="Email Address">
+                                    <div class="input-group-text p-0 rounded-0">
+                                        <button type="button" class="rounded-0 btn" title="signup">
+                                            <a href="#">SignUp</a>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+
+
+                        <div class="grid-dishes row m-0 justify-content-between g-2 mt-3">
+
+                            <div class="col-3" data-bs-toggle="modal" data-bs-target="#dishOne">
+                                <img class="img-fluid" src="./assets/imgs/dishes/sec-product.jpg" alt="">
+                            </div>
+
+                            <div class="col-3" data-bs-toggle="modal" data-bs-target="#dishTwo"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/sec-product2.jpg" alt="">
+                            </div>
+                            <div class="col-3" data-bs-toggle="modal" data-bs-target="#dishThree"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/sec-product3.jpg" alt="">
+                            </div>
+                            <div class="col-3 " data-bs-toggle="modal" data-bs-target="#dishFour"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/r-product3-1-1.jpg" alt="">
+                            </div>
+                            <div class="col-3" data-bs-toggle="modal" data-bs-target="#dishFive"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/r-product9-1-1.jpg" alt="">
+                            </div>
+                            <div class=" col-3" data-bs-toggle="modal" data-bs-target="#dishSix"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/sec-product4.jpg" alt="">
+                            </div>
+                            <div class="col-3 " data-bs-toggle="modal" data-bs-target="#dishSeven"><img
+                                    class="img-fluid" src="./assets/imgs/dishes/sec-product5.jpg" alt="">
+                            </div>
+                            <div class="col-3" data-bs-toggle="modal" data-bs-target="#dishEight"><img class="img-fluid"
+                                    src="./assets/imgs/dishes/sec-product6.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="main-button col-7 col-xl-6 btn">
+                    <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Book A
+                        Table</a>
+                </button>
+
+            </div>
+
+        </div>
+        <!--Create our food header carousel-->
+        <div id="headerFoodCarousel" class="h-100 text-light carousel carousel-dark slide">
+            <div
+                class="container-fluid pb-2 pt-2 pt-xlg-5 pb-xlg-5 ps-2 pe-2 ps-xlg-5 pe-xlg-1  h-100 row m-auto justify-content-between align-items-center">
+                <div class="carousel-indicators d-none d-xl-block col-1 order-0">
+                    <button type="button" data-bs-target="#headerFoodCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#headerFoodCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#headerFoodCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+
+                <div class="main-content col-12 col-lg-11 offset-lg-1 order-1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active row" data-index="01" data-bs-interval="10000">
+
+                            <div
+                                class="animate__animated animate__fadeInLeft carousel-caption d-inline-flex row flex-column justify-content-center justify-content-md-between align-items-center align-items-md-start  col-12 col-md-8 col-lg-6 ps-0 ">
+                                <h2>Good Food Made Easy</h2>
+                                <h3>Are you Hungry ?</h3>
+                                <p class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ex
+                                    quasi
+                                    animi, tempora ab
+                                    quidem
+                                    unde, dolores adipisci ipsa illum aspernatur iste magni atque itaque id quod
+                                    voluptatibus
+                                    eaque excepturi quisquam?.</p>
+                                <button type="button"
+                                    class="main-button btn col-4 col-md-5 col-xl-4 border-outline-none">
+                                    <a class="ps-4" href="#">Learn
+                                        More</a></button>
+                            </div>
+
+                            <div
+                                class="animate__animated animate__fadeInRight   image d-inline-flex flex-column align-items-center justify-content-center justify-content-lg-center align-items-lg-end col-12 mt-4 mt-md-0 col-md-6">
+                                <img src="./assets/imgs/dishes/chicken-grill2.png" alt="...">
+                            </div>
+
+                        </div>
+                        <div class="carousel-item row" data-index="02" data-bs-interval="2000">
+
+                            <div
+                                class="animate__animated animate__fadeInLeft carousel-caption d-inline-flex flex-column justify-content-center justify-content-md-between align-items-center align-items-md-start  col-12 col-md-8 col-lg-6 ps-0 ">
+                                <h2>special dinner for you</h2>
+                                <h3>special dinner for you</h3>
+                                <p class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ex quasi animi, tempora ab
+                                    quidem
+                                    unde, dolores adipisci
+                                    ipsa illum aspernatur iste magni atque itaque id quod voluptatibus eaque excepturi
+                                    quisquam?.</p>
+                                <button type="button"
+                                    class="main-button btn col-4 col-md-5 col-xl-4 border-outline-none">
+                                    <a class="ps-4" href="#">Learn
+                                        More</a></button>
+
+                            </div>
+                            <div
+                                class="animate__animated animate__fadeInRight image d-inline-flex flex-column align-items-center justify-content-center align-items-md-end col-12 mt-4 mt-md-0 col-md-6">
+
+                                <img src="./assets/imgs/dishes/food-3-1.png" alt="...">
+                            </div>
+
+                        </div>
+                        <div class="carousel-item  row" data-index="03">
+                            <div
+                                class="animate__animated animate__fadeInLeft carousel-caption d-inline-flex flex-column justify-content-center justify-content-md-between align-items-center align-items-md-start col-12 col-md-8 col-lg-6 ps-0 ">
+                                <h2>Tastes Like a Paradise</h2>
+                                <h3>Today special menu</h3>
+                                <p class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Ex quasi animi, tempora ab
+                                    quidem
+                                    unde, dolores adipisci
+                                    ipsa illum aspernatur iste magni atque itaque id quod voluptatibus eaque excepturi
+                                    quisquam?.</p>
+                                <button type="button"
+                                    class="main-button btn col-4 col-md-5 col-xl-4 border-outline-none">
+                                    <a class="ps-4" href="#">Learn
+                                        More</a></button>
+
+                            </div>
+                            <div
+                                class="animate__animated animate__fadeInRight    image d-inline-flex flex-column align-items-center justify-content-center align-items-md-end col-12 mt-4 mt-md-0 col-md-6">
+                                <img src="./assets/imgs/dishes/italian-food.png" alt="...">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div
+                    class="controls offset-0 offset-lg-1  order-2 col-12 col-md-7 col-lg-6 row d-flex justify-content-between g-lg-3 align-content-center flex-row">
+
+
+                    <button class="carousel-control-prev col-5" type="button" data-bs-target="#headerFoodCarousel"
+                        data-bs-slide="prev">
+                        <div class="row d-none d-md-flex p-1">
+                            <div class="col-md-4 col-lg-3">
+                                <img src="./assets/imgs/dishes/chicken-grill2.png" class="img-fluid mt-1 rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">prev</h5>
+                                    <p class="card-text d-none">Delecios Food</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-light d-md-none ps-3">prev</p>
+
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span> -->
+                    </button>
+                    <span class="index col-1">01</span>
+                    <button class="carousel-control-next col-5" type="button" data-bs-target="#headerFoodCarousel"
+                        data-bs-slide="next">
+                        <div class="row d-none d-md-flex p-1">
+                            <div class="col-md-4 col-lg-3">
+                                <img src="./assets/imgs/dishes/chicken-grill2.png" class="img-fluid mt-1 rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">next</h5>
+                                    <p class="card-text d-none">Delecios Food</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-light d-md-none ps-3">Next</p>
+
+                        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span> -->
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!--Create About us section -->
+
+    <section class="aboutus bg-dark pb-5 text-light">
+        <div class="container main-container row m-auto position-relative bg-dark p-0 h-100">
+            <div class="main-features col-12 col-lg-6 order-1 bg-dark p-3 p-lg-5 ">
+                <h2>About us</h2>
+                <h3>Enjoy an Exceptional Journey of Taste</h3>
+                <span class="diamond-shape">
+                    <!--Here we will create gradieent border with before pseudo class-->
+                </span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta explicabo.</p>
+                <hr class="mt-3 mb-3 text-light">
+                <div class="row features pt-3 pb-3">
+                    <ul class="col-12 col-lg-6 list-unstyled d-flex flex-column">
+                        <li>
+                            <i class="fa-regular fa-square-check"></i>
+                            <span>Good Quality Food</span>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-square-check"></i>
+                            <span>Fantastic Staff & Location</span>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-square-check"></i>
+                            <span>The Ambience & Cleanliness</span>
+                        </li>
+                        <li>
+                            <button type="button" class="rounded-0 col-7 btn btn-warning p-2 text-center border-0">
+                                <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Learn
+                                    More</a>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="col-12 col-lg-5 ceo-info">
+                        <h3 class="signature">Zienab Muhammad , Muhammad Ramadan</h3>
+                        <h4>CEO and Founder</h4>
+                        <button type="button"
+                            class="d-flex d-md-none rounded-0 col-7 btn btn-warning p-2 text-center border-0">
+                            <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Learn
+                                More</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img col-12 col-lg-6 order-0 p-0 position-relative">
+                <div class="experince bg-black p-3 p-lg-5">
+                    <h3>25+</h3>
+                    <span class="d-none d-lg-flex seperator"> | </span>
+                    <h4>Years Of Experience</h4>
+                </div>
+                <img src="./assets/imgs/chiefs/about-imgres1-1.jpg" alt="" class="p-3 p-lg-0 img-fluid">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--our progress section-->
+    <section class="ourprogres bg-black text- pb-4">
+        <h2 class="text-center mb-3">our progress</h2>
+        <h3 class="text-center mb-5">Healthy & Improves Your Mood</h3>
+        <span class="seperator">
+            <!--we will use before and after psudo classes-->
+        </span>
+        <div
+            class="p-0 main-container container container-md-fluid container-lg m-auto row d-flex justify-content-around">
+            <div class="p-0 card col-11 col-md-5 col-lg-4 bg-dark">
+                <div class="card-body">
+                    <div class="progress-index d-flex justify-content-between align-items-center">
+                        <img src="./assets/imgs/icons/r-icons-5.png" class="" alt="...">
+                        <h3>01</h3>
+                    </div>
+                    <h4 class="card-title">Clean Bar</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        contentLorem Ipsum is simply dummy text of the printing typesetting industry ipsum..</p>
+                </div>
+                <img src="./assets/imgs/chiefs/clean-bar-1.jpg" class="w-100 img-fluid" alt="...">
+            </div>
+
+            <div class="p-0 card col-11 col-md-5 col-lg-4 bg-dark">
+                <div class="card-body">
+                    <div class="progress-index d-flex justify-content-between align-items-center">
+                        <img src="./assets/imgs/icons/restaurant-1.png" class="" alt="...">
+                        <h3>02</h3>
+                    </div>
+                    <h4 class="card-title">Skilled Chefs</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing typesetting industry ipsum.
+                    </p>
+                </div>
+                <img src="./assets/imgs/chiefs/great-chefs-1.jpg" class="w-100 img-fluid" alt="...">
+
+
+            </div>
+
+            <div class="p-0 card col-11 col-md-11 col-lg-4 bg-dark">
+                <div class="card-body">
+                    <div class="progress-index d-flex justify-content-between align-items-center">
+                        <img src="./assets/imgs/icons/r-icons-6.png" class="" alt="...">
+                        <h3>03</h3>
+                    </div>
+                    <h4 class="card-title">Fresh Products</h4>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing typesetting industry ipsum.
+                    </p>
+                </div>
+                <img src="./assets/imgs/otherimgs/healthy-foods1-1.jpg" class="w-100 img-fluid" alt="...">
+            </div>
+        </div>
+
+        <div
+            class="progress-banner m-5 container col-11 m-auto mt-5 bg-dark row pt-3 pb-3 d-flex align-items-center justify-content-center">
+            <img src="./assets/imgs/icons/meat-1-1-pwvftov0oevxravsmeoqvlhq2qbgpb6hp2zlxoppyg.png"
+                class="col-5 col-md-2 pe-lg-4" alt="">
+            <div class="col-11 col-lg-8 details">
+                <h3>We Have 25+ Years of Experience, Give Better Quality Results</h3>
+                <h4 class="text-light">Perspiciatis unde omnis iste natus error sit voluptatem laudantium, totam rem,
+                    eaque ipsa quae
+                </h4>
+            </div>
+            <button type="button"
+                class="col-6 col-lg-2 d-flex rounded-0 col-7 btn btn-warning p-2 text-center border-0">
+                <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Learn
+                    More</a>
+            </button>
+        </div>
+
+    </section>
+
+    <!--our Get in touch section section-->
+
+    <section class="getinTouch bg-dark position-relative  text-light">
+
+        <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="main-content position-relative container row m-auto">
+            <div class="col-11 col-md-6 bg-dark p-5">
+                <h2>Get In Touch</h2>
+                <h3>Find Us Here. Make Real Results Happen.</h3>
+                <span class="sperator"></span>
+                <span class="stars">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </span>
+                <p>Trust Score 4.5 (Based on 1,200 reviews)
+                </p>
+                <span>
+                    <i class="fa-regular fa-face-smile"></i> Read Feedback
+                </span>
+            </div>
+
+            <div class="ourvideo col-11 col-md-6 p-5 d-flex justify-content-center align-items-center">
+                <button type="button" class="btn btn-primary video" data-bs-toggle="modal" data-bs-target="#ourVideo"
+                    title="videobutton">
+                    <i class="fa-solid fa-play"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+
+    <!--Our Menu Section-->
+
+    <section class="ourMenu bg-dark pt-5 text-center">
+        <h2 class="text-center">From Our Menu</h2>
+        <h3 class="text-center">Delicious Food Forever</h3>
+        <span class="seperator"></span>
+        <div class="container row m-auto bg-dark d-flex justify-content-center">
+            <div class="col-11 col-lg-6">
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column  justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column  justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column  justify-content-center ">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Greek Salad</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+            </div>
+            <div class="col-11 col-lg-6">
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Raw Scallops from Erquy</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+                <div class="progress-banner  pt-3 pb-3 d-flex flex-column  justify-content-center">
+                    <div class="element d-grid justify-content-start  w-100 ">
+                        <img src="./assets/imgs/dishes/r-product15-1-1-pwvft0f80dahxegpr9wwji7dnq6vnd6xfimx7lmjno.jpg"
+                            class="pe-lg-2" alt="">
+                        <div class="details ">
+
+                            <h3>
+                                Greek Salad</h3>
+
+                        </div>
+                        <hr class="flex-grow-2 text-light">
+                        <p class="col-auto d-flex">
+                            $32.8
+                        </p>
+                    </div>
+                    <p class="ps-4 desc">Candied Jerusalem artichokes, truffle</p>
+
+                </div>
+
+            </div>
+            <h5 class="text-light col-12 mt-5 mb-2 text-center">
+                During winter daily from 8:30 am to 9.00 pm
+            </h5>
+            <button type="button"
+                class="col-6 col-lg-3 mt-5 mb-5 d-flex rounded-0 btn btn-warning p-2 justify-content-center text-center border-0">
+                <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Learn
+                    More</a>
+            </button>
+        </div>
+
+
+    </section>
+
+
+    <!--Our Reservation Section-->
+    <section class="reservation bg-black">
+        <h2 class="text-center pt-5">Make an Reserve
+        </h2>
+        <h3 class="text-center pt-2">
+            Online Reservation
+
+        </h3>
+        <span class="seperator"></span>
+        <div class="main-content container row m-auto p-5 d-md-flex justify-content-center justify-content-md-between">
+            <form class="col-12 col-lg-8 col-xl-6 row bg-dark g-5 p-2 p-md-4 pb-5 d-flex justify-content-center">
+                <div class="col-11">
+                    <label for="validationServer01" class="form-label d-none">First name</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer01" placeholder="Name"
+                        value="" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-11">
+                    <label for="validationServer02" class="form-label d-none">phone Number</label>
+                    <input type="phone" class="form-control is-invalid" id="validationServer02" placeholder="phone"
+                        value="" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-11">
+                    <label for="validationServer04" class="form-label d-none">persons</label>
+                    <select class="form-select invalid" id="validationServer04"
+                        aria-describedby="validationServer04Feedback" required>
+                        <option selected value="">1 Peron</option>
+                        <option>2 Peron</option>
+                        <option>3 Peron</option>
+                        <option>4 Peron</option>
+                        <option>5 Peron</option>
+                        <option>6 Peron</option>
+                        <option>7 Peron</option>
+                    </select>
+                    <div id="validationServer04Feedback" class="invalid-feedback">
+                        Please select a valid number.
+                    </div>
+                </div>
+                <div class="col-11">
+                    <label for="validationServer05" class="form-label d-none">Date</label>
+                    <select class="form-select invalid" id="validationServer06"
+                        aria-describedby="validationServer04Feedback" required>
+                        <option selected value="">6:00 pm </option>
+                        <option>7:00 pm</option>
+                        <option>8:00 pm</option>
+                        <option>9:00 pm</option>
+                        <option>10:00 pm</option>
+
+                    </select>
+                    <div id="validationServer05Feedback" class="invalid-feedback">
+                        Please provide a valid date.
+                    </div>
+                </div>
+                <div class="col-11">
+                    <label for="validationServer06" class="form-label d-none">time</label>
+                    <input type="date" class="form-control is-valid" id="validationServer05"
+                        aria-describedby="validationServer05Feedback" required>
+                    <div id="validationServer06Feedback" class="invalid-feedback">
+                        Please provide a valid date.
+                    </div>
+                </div>
+                <div class="col-11 col-md-6">
+                    <button type="submit"
+                        class="w-100 d-flex rounded-0 btn btn-warning p-2 justify-content-center text-center border-0">
+                        Book A Table
+                    </button>
+
+                </div>
+            </form>
+            <div class="message-reservation d-none">
+            </div>
+        </div>
+    </section>
+
+
+    <!--statistics section-->
+    <section class="statistics bg-dark">
+        <ul
+            class="list-unstyled container row m-auto d-flex justify-content-between align-items-center text-light text-center">
+            <li class="col-12 col-md-6 col-lg-3">
+                <h3 class="text-center">105+</h3>
+                <h5>Years of Foundation</h5>
+            </li>
+
+            <li class="col-12 col-md-6 col-lg-3">
+                <h3 class="text-center">10k</h3>
+                <h5>Satisfied Clients</h5>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3">
+                <h3 class="text-center">540+</h3>
+                <h5>Global Reach</h5>
+            </li>
+            <li class="col-12 col-md-6 col-lg-3">
+                <h3 class="text-center">175+</h3>
+                <h5>Awards Winning</h5>
+            </li>
+        </ul>
+    </section>
+
+
+    <!--our team section-->
+    <section class="team bg-dark pb-5">
+        <h2 class="text-center pt-5">Amazing Team
+        </h2>
+        <h3 class="text-center pt-2">
+            Meet Our Chefs
+        </h3>
+        <span class="seperator"></span>
+
+        <div class="container row m-auto justify-content-center justify-content-md-around d-flex g-5">
+            <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner w-100 row">
+                    <div class="carousel-item g-5 active" data-bs-interval="10000">
+                        <div class="col-11 col-md-6 col-lg-3">
+                            <div class="p-0 card">
+                                <img src="./assets/imgs/chiefs/team-1-1-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex justify-content-between g-5">
+                                    <div class="details">
+                                        <h5 class="card-title">Laurance Willburn</h5>
+                                        <h6>MAIN CHEFS</h6>
+                                    </div>
+                                    <div class="icon"><img src="./assets/imgs/icons/team-badge.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item g-5" data-bs-interval="2000">
+                        <div class="col-11 col-md-6 col-lg-3">
+                            <div class="p-0 card">
+                                <img src="./assets/imgs/chiefs/team-1-1-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex justify-content-between g-5">
+                                    <div class="details">
+                                        <h5 class="card-title">Laurance Willburn</h5>
+                                        <h6>MAIN CHEFS</h6>
+                                    </div>
+                                    <div class="icon"><img src="./assets/imgs/icons/team-badge.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item g-5" data-bs-interval="3000">
+                        <div class="col-11 col-md-6 col-lg-3 ">
+                            <div class="p-0 card">
+                                <img src="./assets/imgs/chiefs/team-1-1-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex justify-content-between g-5">
+                                    <div class="details">
+                                        <h5 class="card-title">Laurance Willburn</h5>
+                                        <h6>MAIN CHEFS</h6>
+                                    </div>
+                                    <div class="icon"><img src="./assets/imgs/icons/team-badge.png" alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <!--location section-->
+    <section class="location bg-dark pt-5 pb-5 p-md-5">
+        <div class="overlay"></div>
+        <div class="container main-content row m-auto p-md-5 ">
+            <div class="col-12 col-xl-6">
+                <h2>Find Location</h2>
+                <h3>Locations of Restaurants All Over the World</h3>
+                <span class="seperator"></span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta explicabo.</p>
+                <button type="button" class="d-flex rounded-0 col-7 btn btn-warning p-2 text-center border-0">
+                    <a class="d-flex text-light justify-content-center text-decoration-none" href="#">Learn
+                        More</a>
+                </button>
+            </div>
+
+            <div class="map p-5 d-none d-xl-flex col-6 row align-items-center">
+                <button type="button" class="col-4" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-title="Popover title"
+                    data-bs-content="And here's some amazing content. It's very engaging. Right">
+                    <i class="fa-solid fa-location-dot"></i>
+                </button>
+                <button type="button" class="col-4" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-title="Popover title"
+                    data-bs-content="And here's some amazing content. It's very engaging. Right">
+                    <i class="fa-solid fa-location-dot"></i>
+                </button>
+                <button type="button" class="col-4" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-title="Popover title"
+                    data-bs-content="And here's some amazing content. It's very engaging. Right">
+                    <i class="fa-solid fa-location-dot"></i>
+                </button>
+
+                <button type="button" class="col-5" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="right" data-bs-title="Popover title"
+                    data-bs-content="And here's some amazing content. It's very engaging. Right">
+                    <i class="fa-solid fa-location-dot"></i>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Blog Section-->
+    <section class="Blogs bg-black p-md-5">
+        <h2 class="text-center pt-5">Our Blog
+
+        </h2>
+        <h3 class="text-center pt-2">
+            Latest Posts
+        </h3>
+        <span class="seperator"></span>
+        <div id="blogCarousel" class="carousel container carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active">
+                    <div class="row w-100 m-auto  justify-content-between">
+                        <div class="blog card col-3">
+                            <div class="overlay"></div>
+                            <div class="card-body h-100">
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="blog card col-3">
+                            <div class="card-body h-100">
+                                <div class="overlay"></div>
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="blog card col-3">
+                            <div class="card-body h-100">
+                                <div class="overlay"></div>
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item row m-auto justify-content-between">
+                    <div class="row w-100 m-auto  justify-content-between">
+                        <div class="blog card col-3">
+                            <div class="overlay"></div>
+                            <div class="card-body h-100">
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="blog card col-3">
+                            <div class="card-body h-100">
+                                <div class="overlay"></div>
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="blog card col-3">
+                            <div class="card-body h-100">
+                                <div class="overlay"></div>
+                                <div class="content">
+                                    <span class="" category>Food & Drinks</span>
+
+                                    <div class="details">
+                                        <p>How to start restaurant business in 2022</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!--testimonial section-->
+    <section class="testimonial bg-dark">
+        <h2 class="text-center pt-5">Our Testimonials</h2>
+        <h3 class="text-center pt-2">
+            What Customer Says
+        </h3>
+        <span class="seperator"></span>
+        <div id="testimonialCarousel" class="container carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active row m-auto">
+                    <div
+                        class="carousel-caption row col-10 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start g-2 g-lg-5 align-items-center">
+                        <div class="img col-8 col-md-6 col-lg-3">
+                            <img src="./assets/imgs/chiefs/team-2-1-1.jpg" class="img-fluid" alt="">
+                            <div class="number">99</div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8 feedback">
+                            <blockquote class="text-start">
+                                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto placeat
+                                praesentium maxime nulla consequuntur eaque necessitatibus ut aut illum inventore
+                                distinctio ipsam eveniet ratione quis eius unde quasi, sequi iste.
+                                "
+                            </blockquote>
+                            <h5 class="name text-start">Zienab Muhammad</h5>
+                            <p class="job">Architecture</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+
+    <!--FAQ section-->
+    <section class="p-5 FAQ bg-black">
+        <div class="container row m-auto d-flex justify-content-between">
+            <div class="main-content row col-12 col-md-12 col-lg-6 col-xl-5">
+                <h2 class="text-light">Frequently Ask Questions</h2>
+                <h4 class="text-light">Do you have any questions?</h4>
+                <span class="seperator"></span>
+                <p class="text-light">Not is there anyone who loves or pursues or desires to obtain pain of itself,
+                    because it is pain, but
+                    occasionally
+                    circumstances occur in which toil and pain can procure him some great pleasure. Creation timelines
+                    for the digital
+                    consulting business theme 2021 bstandard lorem ipsum passage vary, with some citing the 15th century
+                    and others the
+                    20th.</p>
+                <button type="button"
+                    class="align-self-center align-self-lg-start col-6 mt-3 mb-3 d-flex rounded-0 btn btn-warning p-2 justify-content-center text-center border-0">
+                    <a class="d-flex text-light justify-content-center text-decoration-none" href="#">GET IN Touch</a>
+                </button>
+            </div>
+
+            <div class="row col-12 col-md-12 col-lg-6">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Why should I Incorporate My business ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
+                                imagine this being
+                                filled with some actual content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                can i offer my items for free on a promotional basis?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
+                                imagine this being
+                                filled with some actual content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                How can I safely use My business ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+                                more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at
+                                least at first
+                                glance, a bit more representative of how this would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                What type of company is measured ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the
+                                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing
+                                more exciting
+                                happening here in terms of content, but just filling up the space to make it look, at
+                                least at first
+                                glance, a bit more representative of how this would look in a real-world application.
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--footer section-->
+    <footer class="pt-5 bg-dark text-light">
+        <ul
+            class="container mt-5 mb-5 footer-card bg-black p-5 list-unstyled col-12 col-md-10 col-lg-7 m-auto justify-content-center align-self-center d-flex flex-column flex-md-row justify-content-center text-center">
+            <li class="col-12 col-md-4">
+                <h3 class="text-center">Call Us On :</h3>
+                <span>+(528) 456-7592</span>
+            </li>
+
+            <li class="col-12 col-md-4">
+                <h3 class="text-center">Open Hours :</h3>
+                <span>7.00 AM - 11.15 PM</span>
+            </li>
+            <li class="col-12 col-md-4">
+
+                <h3 class="text-center">Mail Us :</h3>
+                <span>info@example.com</span>
+            </li>
+
+        </ul>
+        <div class="container d-flex row m-auto">
+            <ul class="list-unstyled d-flex flex-column col-12 col-xl-3">
+                <li>
+                    <h2><a href="#">
+                            <img src="./assets/imgs/logo-2.png" class="logo img-fluid" alt="">
+                        </a></h2>
+                </li>
+                <li>
+                    Lorem ipsum dolor sit amet, elit. Aenean ligula eget dolor. Lorem ipsum dolor sit amet, consect to
+                    adipisicing elit. Ut
+                    enim ad minim veniam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, quis us
+                    elit aboris nisi.
+                </li>
+                <li>
+                    <ul class="list-unstyled d-flex justify-content-start g-5 w-100">
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="links col-12 pt-5 col-md-6 col-xl-3">
+                <h3>Our services</h3>
+                <ul class="list-unstyled w-100">
+                    <li>
+                        <a href="#"> Fast Delivery </a>
+                    </li>
+
+                    <li>
+                        <a href="#">Vegan Cuisine </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> Fresh Products </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> Skilled Chefs </a>
+                    </li>
+
+                    <li>
+                        <a href="#">Great Coffee </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class=" links col-12 pt-5 col-md-6 col-xl-3">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled w-100">
+                    <li>
+                        <a href="#"> About us </a>
+                    </li>
+
+                    <li>
+                        <a href="#">Testimonials </a>
+                    </li>
+
+                    <li>
+                        <a href="#"> our team</a>
+                    </li>
+
+                    <li>
+                        <a href="#"> blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#">contact us </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="links latest-blog col-12 pt-5 col-xl-3">
+                <h3>Latest Posts</h3>
+                <ul class="d-flex flex-column list-unstyled w-100">
+                    <li class="row justify-content-start">
+                        <img src="./assets/imgs/blogs/r-blog-10-1-1.jpg" alt="" class="img-fluid col-4">
+                        <div class="col-8">
+                            <h6 class="w-100">Things To Know when starting your business</h6>
+                            <div class="w-100 date mt-3">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>Jan 1, 2023</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <hr>
+                    </li>
+                    <li class="row justify-content-start">
+                        <img src="./assets/imgs/blogs/r-blog-10-1-1.jpg" alt="" class="img-fluid col-4">
+                        <div class="col-8">
+                            <h6>Things To Know when starting your business</h6>
+                            <div class="date mt-3">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>Jan 1, 2023</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="mt-3 copyRight text-center p-3 bg-black text-light">
+            <p class="m-0 text-center">Copyrights © 2023 reserved by<span class="text-warning">RamZien</span>Restaurt
+            </p>
+        </div>
+    </footer>
+
+    <!-- all Modals for dishes  -->
+    <section class="Modals">
+
+        <div class="dishes modal modal-fullscreen fade" id="dishOne" tabindex="-1" aria-labelledby="dishOneLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishOneLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dishes modal modal-fullscreen fade" id="dishTwo" tabindex="-1" aria-labelledby="dishTwoLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishTwoLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dishes modal modal-fullscreen fade" id="dishThree" tabindex="-1" aria-labelledby="dishThreeLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishThreeLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dishes modal modal-fullscreen fade" id="dishFour" tabindex="-1" aria-labelledby="dishFourLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishFourLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/r-product3-1-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dishes modal modal-fullscreen fade" id="dishFive" tabindex="-1" aria-labelledby="dishFiveLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishFiveLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/r-product9-1-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="dishes modal modal-fullscreen fade" id="dishSix" tabindex="-1" aria-labelledby="dishSixLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishSixLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dishes modal modal-fullscreen fade" id="dishSeven" tabindex="-1" aria-labelledby="dishSevenLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishSevenLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dishes modal modal-fullscreen fade" id="dishEight" tabindex="-1" aria-labelledby="dishEightLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content  m-auto w-75">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5 text-center" id="dishEightLabel">Dish one</h2>
+                        <button type="button" class="btn-close-white btn-close " data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body justify-content-center align-items-center d-flex">
+                        <img class="img-fluid" src="./assets/imgs/dishes/sec-product6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Modal for promotional video-->
+        <div class="modal  fade" id="ourVideo" tabindex="-1" aria-labelledby="ourVideoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content container">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="ourVideoLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body m-auto">
+                        <iframe src="https://www.youtube.com/embed/Poo6Vvx_se8" title="BREATHE Marbella" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End dishes Modals-->
+
+
+
+    <!--loader-->
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!--[if IE]><div class="w-100 text-center bg-dark text-white pt-3 px-4 pb-1 position-fixed" style="z-index: 1000; bottom: 0;"><p onClick="parentNode.remove()">Please use a modern browser for a better browsing experience. <span class="float-right">X</span></p></div><![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
